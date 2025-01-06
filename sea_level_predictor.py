@@ -4,10 +4,10 @@ from scipy.stats import linregress
 
 def draw_plot():
     # Read data from file
-
+    df = read_csv('epa-sea-level.csv')
 
     # Create scatter plot
-
+    plt.plot(data=df, kind='scatter')
 
     # Create first line of best fit
 
